@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: ["app.testaonline.com"],
+  },
+
   async headers() {
     return [
       {

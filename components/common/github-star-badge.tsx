@@ -14,26 +14,26 @@ type GitHubStarBadgeProps = {
 export function GitHubStarBadge({ className }: GitHubStarBadgeProps) {
   const [stars, setStars] = React.useState<number | null>(null);
 
-  React.useEffect(() => {
-    let cancelled = false;
+  // React.useEffect(() => {
+  //   let cancelled = false;
 
-    async function load() {
-      try {
-        const res = await fetch("/api/github-stars", { cache: "no-store" });
-        if (!res.ok) return;
-        const data = (await res.json()) as { stars?: number | null };
-        if (cancelled) return;
-        setStars(typeof data.stars === "number" ? data.stars : null);
-      } catch {
-        // ignore
-      }
-    }
+  //   async function load() {
+  //     try {
+  //       const res = await fetch("/api/github-stars", { cache: "no-store" });
+  //       if (!res.ok) return;
+  //       const data = (await res.json()) as { stars?: number | null };
+  //       if (cancelled) return;
+  //       setStars(typeof data.stars === "number" ? data.stars : null);
+  //     } catch {
+  //       // ignore
+  //     }
+  //   }
 
-    load();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
+  //   load();
+  //   return () => {
+  //     cancelled = true;
+  //   };
+  // }, []);
 
   return (
     <Link
@@ -53,10 +53,10 @@ export function GitHubStarBadge({ className }: GitHubStarBadgeProps) {
         <span className="font-medium">Template</span>
         <span className="text-muted-foreground/60">·</span>
       </span>
-      <Icons.star className="h-3.5 w-3.5" />
+      {/* <Icons.star className="h-3.5 w-3.5" />
       <span className="font-medium tabular-nums">
         {stars != null ? stars.toLocaleString() : "Star"}
-      </span>
+      </span> */}
     </Link>
   );
 }

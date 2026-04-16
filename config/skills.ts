@@ -92,13 +92,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.react,
   },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
+  // {
+  //   name: "Angular",
+  //   description:
+  //     "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
+  //   rating: 3,
+  //   icon: Icons.angular,
+  // },
   {
     name: "Redux",
     description:
@@ -142,13 +142,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 2,
     icon: Icons.bootstrap,
   },
-  {
-    name: "MySQL",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
-    icon: Icons.mysql,
-  },
+  // {
+  //   name: "MySQL",
+  //   description:
+  //     "Manage and organize relational databases efficiently for data-driven applications.",
+  //   rating: 2,
+  //   icon: Icons.mysql,
+  // },
   {
     name: "Netlify",
     description:
