@@ -101,7 +101,7 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              React.js & Next.js Developer with 3+ years of experience building
+              React.js & Next.js Developer with 4+ years of experience building
               scalable, high-performance web applications. Skilled in modern
               frontend development and API integration, with a strong goal to
               grow into a Full Stack Developer.
@@ -118,7 +118,6 @@ export default function IndexPage() {
               >
                 <Icons.post className="w-4 h-4 mr-2" /> Resume
               </Link>
-              
             </AnimatedText>
             <AnimatedText delay={0.8}>
               <Link
