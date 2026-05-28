@@ -20,7 +20,7 @@ export const experiences: ExperienceInterface[] = [
     position: "Software Development Engineer",
     company: "Radiant Infonet Pvt. Ltd.",
     location: "Noida, India",
-    startDate: new Date("2023-02-03"),
+    startDate: new Date("2022-02-08"),
     endDate: new Date("2026-03-31"),
     description: [
       "Developed and delivered scalable React-based UI features within the first month, including dynamic dashboards and form-driven modules used by multiple users.",
